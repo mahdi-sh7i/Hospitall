@@ -1,0 +1,19 @@
+1.Ehos_main = hm7
+
+2.Ehos_ajns = pz8
+3.Ehos_arch = har8
+
+4.Ehos_im = hi7
+
+    4.1 Ehos_imem = hiem7
+    4.2 Ehos_impa = hepa7
+    4.3 Ehos_imde = hede7
+
+5.Ehos_di = he7
+
+    5.1 Ehos_diem = heem7
+    5.2 Ehos_dipa = hepa7
+    5.3 Ehos_dide = hede7
+
+7.Ehos_ok  = hpzok7
+8.Ehos_nok  =  Di_not

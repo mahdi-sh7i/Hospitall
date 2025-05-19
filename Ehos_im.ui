@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>401</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="but_patients">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>180</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>IRNazanin</family>
+      <pointsize>30</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Transparent background */
+    color: rgb(0,0,0); /* Text color */
+    border: 2px solid gray; /* Border around the button */
+    padding: 5px; /* Increased padding for better touch targets */
+    border-radius: 25px; /* Rounded corners */
+    margin: 5px; /* Uniform margin on all sides */
+    font-size: 35px; /* Font size for better readability */
+	font: 30pt &quot;IRNazanin&quot;;
+border-bottom: 2px solid rgba(105,118,132,255);
+}
+
+QPushButton:hover {
+    border-color: rgba(190, 190, 190, 0.7); /* Lighter border on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover for visual feedback */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.2); /* Darker background when pressed */
+	font: 20pt &quot;Ubuntu&quot;;
+    border-color: rgba(150, 150, 150, 0.8); /* Change border color when pressed */
+}
+
+QPushButton:disabled {
+    color: rgba(255, 255, 255, 0.5); /* Lighter text color when disabled */
+    border-color: rgba(190, 190, 190, 0.3); /* Lighter border when disabled */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>بیماران</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_home">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>IRNazanin</family>
+      <pointsize>30</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Transparent background */
+    color: rgb(0,0,0); /* Text color */
+    border: 2px solid gray; /* Border around the button */
+    padding: 5px; /* Increased padding for better touch targets */
+    border-radius: 25px; /* Rounded corners */
+    margin: 5px; /* Uniform margin on all sides */
+    font-size: 35px; /* Font size for better readability */
+	font: 30pt &quot;IRNazanin&quot;;
+border-bottom: 2px solid rgba(105,118,132,255);
+}
+
+QPushButton:hover {
+    border-color: rgba(190, 190, 190, 0.7); /* Lighter border on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover for visual feedback */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.2); /* Darker background when pressed */
+	font: 20pt &quot;Ubuntu&quot;;
+    border-color: rgba(150, 150, 150, 0.8); /* Change border color when pressed */
+}
+
+QPushButton:disabled {
+    color: rgba(255, 255, 255, 0.5); /* Lighter text color when disabled */
+    border-color: rgba(190, 190, 190, 0.3); /* Lighter border when disabled */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>خانه</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_employess">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>100</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>IRNazanin</family>
+      <pointsize>30</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Transparent background */
+    color: rgb(0,0,0); /* Text color */
+    border: 2px solid gray; /* Border around the button */
+    padding: 5px; /* Increased padding for better touch targets */
+    border-radius: 25px; /* Rounded corners */
+    margin: 5px; /* Uniform margin on all sides */
+    font-size: 35px; /* Font size for better readability */
+	font: 30pt &quot;IRNazanin&quot;;
+border-bottom: 2px solid rgba(105,118,132,255);
+}
+
+QPushButton:hover {
+    border-color: rgba(190, 190, 190, 0.7); /* Lighter border on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover for visual feedback */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.2); /* Darker background when pressed */
+	font: 20pt &quot;Ubuntu&quot;;
+    border-color: rgba(150, 150, 150, 0.8); /* Change border color when pressed */
+}
+
+QPushButton:disabled {
+    color: rgba(255, 255, 255, 0.5); /* Lighter text color when disabled */
+    border-color: rgba(190, 190, 190, 0.3); /* Lighter border when disabled */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>همکاران</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_deptment">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>260</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>IRNazanin</family>
+      <pointsize>30</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Transparent background */
+    color: rgb(0,0,0); /* Text color */
+    border: 2px solid gray; /* Border around the button */
+    padding: 5px; /* Increased padding for better touch targets */
+    border-radius: 25px; /* Rounded corners */
+    margin: 5px; /* Uniform margin on all sides */
+    font-size: 35px; /* Font size for better readability */
+	font: 30pt &quot;IRNazanin&quot;;
+border-bottom: 2px solid rgba(105,118,132,255);
+}
+
+QPushButton:hover {
+    border-color: rgba(190, 190, 190, 0.7); /* Lighter border on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover for visual feedback */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.2); /* Darker background when pressed */
+	font: 20pt &quot;Ubuntu&quot;;
+    border-color: rgba(150, 150, 150, 0.8); /* Change border color when pressed */
+}
+
+QPushButton:disabled {
+    color: rgba(255, 255, 255, 0.5); /* Lighter text color when disabled */
+    border-color: rgba(190, 190, 190, 0.3); /* Lighter border when disabled */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>بخش ها</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_bake">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>370</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>IRNazanin</family>
+      <pointsize>30</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Transparent background */
+    color: rgb(0,0,0); /* Text color */
+    border: 2px solid gray; /* Border around the button */
+    padding: 5px; /* Increased padding for better touch targets */
+    border-radius: 25px; /* Rounded corners */
+    margin: 5px; /* Uniform margin on all sides */
+    font-size: 35px; /* Font size for better readability */
+	font: 30pt &quot;IRNazanin&quot;;
+border-bottom: 2px solid rgba(105,118,132,255);
+}
+
+QPushButton:hover {
+    border-color: rgba(190, 190, 190, 0.7); /* Lighter border on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover for visual feedback */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.2); /* Darker background when pressed */
+	font: 20pt &quot;Ubuntu&quot;;
+    border-color: rgba(150, 150, 150, 0.8); /* Change border color when pressed */
+}
+
+QPushButton:disabled {
+    color: rgba(255, 255, 255, 0.5); /* Lighter text color when disabled */
+    border-color: rgba(190, 190, 190, 0.3); /* Lighter border when disabled */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>قبلی</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_pic">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>401</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>2.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>401</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>IRNazanin</family>
+      <pointsize>30</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0,0,0);
+font: 30pt &quot;IRNazanin&quot;;color: rgb(0,0,0);
+</string>
+    </property>
+    <property name="text">
+     <string>ثبت</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>label_pic</zorder>
+   <zorder>but_patients</zorder>
+   <zorder>but_home</zorder>
+   <zorder>but_employess</zorder>
+   <zorder>but_deptment</zorder>
+   <zorder>but_bake</zorder>
+   <zorder>label</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

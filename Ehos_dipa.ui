@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>883</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="but_bake">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>720</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>IRNazanin</family>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Transparent background */
+    color: rgb(0,0,0); /* Text color */
+    border: 2px solid gray; /* Border around the button */
+    padding: 5px; /* Increased padding for better touch targets */
+    border-radius: 25px; /* Rounded corners */
+    margin: 5px; /* Uniform margin on all sides */
+    font-size: 35px; /* Font size for better readability */
+	font: 30pt &quot;IRNazanin&quot;;
+border-bottom: 2px solid rgba(105,118,132,255);
+}
+
+QPushButton:hover {
+    border-color: rgba(190, 190, 190, 0.7); /* Lighter border on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover for visual feedback */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.2); /* Darker background when pressed */
+	font: 20pt &quot;Ubuntu&quot;;
+    border-color: rgba(150, 150, 150, 0.8); /* Change border color when pressed */
+}
+
+QPushButton:disabled {
+    color: rgba(255, 255, 255, 0.5); /* Lighter text color when disabled */
+    border-color: rgba(190, 190, 190, 0.3); /* Lighter border when disabled */
+}
+QPushButton {
+    background-color: transparent; /* Transparent background */
+    color: rgb(0,0,0); /* Text color */
+    border: 2px solid gray; /* Border around the button */
+    padding: 5px; /* Increased padding for better touch targets */
+    border-radius: 25px; /* Rounded corners */
+    margin: 5px; /* Uniform margin on all sides */
+    font-size: 30px; /* Font size for better readability */
+border-bottom: 2px solid rgba(105,118,132,255);
+}
+
+QPushButton:hover {
+    border-color: rgba(190, 190, 190, 0.7); /* Lighter border on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover for visual feedback */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.2); /* Darker background when pressed */
+	font: 20pt &quot;Ubuntu&quot;;
+    border-color: rgba(150, 150, 150, 0.8); /* Change border color when pressed */
+}
+
+QPushButton:disabled {
+    color: rgba(255, 255, 255, 0.5); /* Lighter text color when disabled */
+    border-color: rgba(190, 190, 190, 0.3); /* Lighter border when disabled */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>قبلی</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_gender">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>300</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0,0,0,0);
+border: none;
+border-bottom: 2px solid rgba(105,118,132,255);
+color: rgba(10, 10, 10,250); 
+padding-bottom: 3px;
+font-size: 20px;
+font: 20pt &quot;IRNazanin&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>آقا / خانم</string>
+    </property>
+    <property name="cursorMoveStyle">
+     <enum>Qt::LogicalMoveStyle</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_docter_code">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>420</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0,0,0,0);
+border: none;
+border-bottom: 2px solid rgba(105,118,132,255);
+color: rgba(10, 10, 10,250); 
+padding-bottom: 3px;
+font-size: 20px;
+font: 20pt &quot;IRNazanin&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>کد دکتر</string>
+    </property>
+    <property name="cursorMoveStyle">
+     <enum>Qt::LogicalMoveStyle</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_phone">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>360</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0,0,0,0);
+border: none;
+border-bottom: 2px solid rgba(105,118,132,255);
+color: rgba(10, 10, 10,250); 
+padding-bottom: 3px;
+font-size: 20px;
+font: 20pt &quot;IRNazanin&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>شماره تلفن</string>
+    </property>
+    <property name="cursorMoveStyle">
+     <enum>Qt::LogicalMoveStyle</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_home">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>720</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>IRNazanin</family>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Transparent background */
+    color: rgb(0,0,0); /* Text color */
+    border: 2px solid gray; /* Border around the button */
+    padding: 5px; /* Increased padding for better touch targets */
+    border-radius: 25px; /* Rounded corners */
+    margin: 5px; /* Uniform margin on all sides */
+    font-size: 35px; /* Font size for better readability */
+	font: 30pt &quot;IRNazanin&quot;;
+border-bottom: 2px solid rgba(105,118,132,255);
+}
+
+QPushButton:hover {
+    border-color: rgba(190, 190, 190, 0.7); /* Lighter border on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover for visual feedback */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.2); /* Darker background when pressed */
+	font: 20pt &quot;Ubuntu&quot;;
+    border-color: rgba(150, 150, 150, 0.8); /* Change border color when pressed */
+}
+
+QPushButton:disabled {
+    color: rgba(255, 255, 255, 0.5); /* Lighter text color when disabled */
+    border-color: rgba(190, 190, 190, 0.3); /* Lighter border when disabled */
+}
+QPushButton {
+    background-color: transparent; /* Transparent background */
+    color: rgb(0,0,0); /* Text color */
+    border: 2px solid gray; /* Border around the button */
+    padding: 5px; /* Increased padding for better touch targets */
+    border-radius: 25px; /* Rounded corners */
+    margin: 5px; /* Uniform margin on all sides */
+    font-size: 30px; /* Font size for better readability */
+border-bottom: 2px solid rgba(105,118,132,255);
+}
+
+QPushButton:hover {
+    border-color: rgba(190, 190, 190, 0.7); /* Lighter border on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover for visual feedback */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.2); /* Darker background when pressed */
+	font: 20pt &quot;Ubuntu&quot;;
+    border-color: rgba(150, 150, 150, 0.8); /* Change border color when pressed */
+}
+
+QPushButton:disabled {
+    color: rgba(255, 255, 255, 0.5); /* Lighter text color when disabled */
+    border-color: rgba(190, 190, 190, 0.3); /* Lighter border when disabled */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>خانه</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_date">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>240</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0,0,0,0);
+border: none;
+border-bottom: 2px solid rgba(105,118,132,255);
+color: rgba(10, 10, 10,250); 
+padding-bottom: 3px;
+font-size: 20px;
+font: 20pt &quot;IRNazanin&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>تاریخ</string>
+    </property>
+    <property name="cursorMoveStyle">
+     <enum>Qt::LogicalMoveStyle</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_part">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>480</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0,0,0,0);
+border: none;
+border-bottom: 2px solid rgba(105,118,132,255);
+color: rgba(10, 10, 10,250); 
+padding-bottom: 3px;
+font-size: 20px;
+font: 20pt &quot;IRNazanin&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>کد بخش</string>
+    </property>
+    <property name="cursorMoveStyle">
+     <enum>Qt::LogicalMoveStyle</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_pic">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>451</width>
+      <height>891</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>1.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_name">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>401</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>IRNazanin</family>
+      <pointsize>30</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0,0,0);
+font: 30pt &quot;IRNazanin&quot;;</string>
+    </property>
+    <property name="text">
+     <string>بیماران</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_name">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>120</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0,0,0,0);
+border: none;
+border-bottom: 2px solid rgba(105,118,132,255);
+color: rgba(10, 10, 10,250); 
+padding-bottom: 3px;
+font-size: 20px;
+font: 20pt &quot;IRNazanin&quot;;
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>نام</string>
+    </property>
+    <property name="cursorMoveStyle">
+     <enum>Qt::VisualMoveStyle</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_lastname">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>180</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0,0,0,0);
+border: none;
+border-bottom: 2px solid rgba(105,118,132,255);
+color: rgba(10, 10, 10,250); 
+padding-bottom: 3px;
+font-size: 20px;
+font: 20pt &quot;IRNazanin&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>نام خانوادگی</string>
+    </property>
+    <property name="cursorMoveStyle">
+     <enum>Qt::LogicalMoveStyle</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_display">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>710</y>
+      <width>151</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>IRNazanin</family>
+      <pointsize>30</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Transparent background */
+    color: rgb(0,0,0); /* Text color */
+    border: 2px solid gray; /* Border around the button */
+    padding: 5px; /* Increased padding for better touch targets */
+    border-radius: 25px; /* Rounded corners */
+    margin: 5px; /* Uniform margin on all sides */
+    font-size: 35px; /* Font size for better readability */
+	font: 30pt &quot;IRNazanin&quot;;
+border-bottom: 2px solid rgba(105,118,132,255);
+}
+
+QPushButton:hover {
+    border-color: rgba(190, 190, 190, 0.7); /* Lighter border on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover for visual feedback */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.2); /* Darker background when pressed */
+	font: 20pt &quot;Ubuntu&quot;;
+    border-color: rgba(150, 150, 150, 0.8); /* Change border color when pressed */
+}
+
+QPushButton:disabled {
+    color: rgba(255, 255, 255, 0.5); /* Lighter text color when disabled */
+    border-color: rgba(190, 190, 190, 0.3); /* Lighter border when disabled */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>نمایش</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_patient_code">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>60</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0,0,0,0);
+border: none;
+border-bottom: 2px solid rgba(105,118,132,255);
+color: rgba(10, 10, 10,250); 
+padding-bottom: 3px;
+font-size: 20px;
+font: 20pt &quot;IRNazanin&quot;;
+</string>
+    </property>
+    <property name="cursorPosition">
+     <number>0</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="dragEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>کد بیمار</string>
+    </property>
+    <property name="cursorMoveStyle">
+     <enum>Qt::VisualMoveStyle</enum>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="list_display">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>540</y>
+      <width>341</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0,0,0,0);
+border: none;
+border-bottom: 2px solid rgba(105,118,132,255);
+color: rgba(10, 10, 10,250); 
+padding-bottom: 3px;
+font-size: 14px;
+</string>
+    </property>
+   </widget>
+   <zorder>label_pic</zorder>
+   <zorder>but_bake</zorder>
+   <zorder>line_gender</zorder>
+   <zorder>line_docter_code</zorder>
+   <zorder>line_phone</zorder>
+   <zorder>but_home</zorder>
+   <zorder>line_date</zorder>
+   <zorder>line_part</zorder>
+   <zorder>label_name</zorder>
+   <zorder>line_name</zorder>
+   <zorder>line_lastname</zorder>
+   <zorder>but_display</zorder>
+   <zorder>line_patient_code</zorder>
+   <zorder>list_display</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,1 +1,82 @@
-# Hospitall
+```markdown
+# Hospital Management System
+
+A comprehensive hospital management system built with PyQt5 and SQLite for managing patient records, employee data, and department information.
+
+## Features
+
+- **Patient Management**:
+  - Add new patient records
+  - Search and display patient information
+  - Store patient details including code, name, contact, and medical information
+
+- **Employee Management**:
+  - Add new employee records
+  - Search and display employee information
+  - Track employee expertise and department assignments
+
+- **Department Management**:
+  - Add and manage hospital departments
+  - Associate employees and patients with departments
+
+- **User Interface**:
+  - Persian language support (RTL)
+  - Intuitive forms for data entry
+  - Search functionality with multiple filters
+  - Confirmation dialogs for operations
+
+## Technologies Used
+
+- Python 3
+- PyQt5 for GUI
+- SQLite for database
+- Qt Designer for UI design
+
+## Database Schema
+
+The system uses SQLite with the following tables:
+
+1. `patients` - Stores patient information
+2. `employe` - Stores employee records
+3. `department` - Manages hospital departments
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone [repository-url]
+   cd hospital-management
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install PyQt5
+   ```
+
+3. Run the application:
+   ```bash
+   python Ehos_main.py
+   ```
+
+## Usage
+
+1. **Main Menu**: Choose between Admission or Archive functions
+2. **Admission**: Register new patients or employees
+3. **Archive**: Search and view existing records
+4. **Data Entry**: Fill all required fields in forms
+5. **Navigation**: Use the home/bake buttons to move between screens
+
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+
+This README provides:
+1. Clear description of the project
+2. Key features list
+3. Technology stack
+4. Database information
+5. Installation instructions
+6. Usage guide
+7. Contribution guidelines
