@@ -4,7 +4,9 @@ A comprehensive hospital management system built with PyQt5 and SQLite for manag
 
 # Previwe
 
+![1](https://github.com/user-attachments/assets/cbe40dcc-50ee-4e7f-8554-6406683d5dfe)
 
+![2](https://github.com/user-attachments/assets/260e5d04-cec0-4775-b14a-0c8e692ad751)
 
 ## Features
 
