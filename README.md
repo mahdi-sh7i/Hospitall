@@ -2,6 +2,10 @@
 
 A comprehensive hospital management system built with PyQt5 and SQLite for managing patient records, employee data, and department information.
 
+# Previwe
+
+
+
 ## Features
 
 - Patient Management:
